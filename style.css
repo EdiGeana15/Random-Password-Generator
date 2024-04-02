@@ -1,0 +1,88 @@
+body {
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+  height: 100vh;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: flex-start;
+  margin: 30px auto;
+  border: 10px solid #fff;
+  border-radius: 40px;
+  padding: 100px 50px;
+  background-color: #1E2A37;
+}
+
+.line {
+  border: 2px solid rgba(128, 128, 128, 0.188);
+  width: 100%;
+  margin: 50px 0;
+}
+
+h1 {
+  margin-top: -20px;
+}
+
+span {
+  color: #49DF84;
+  display: flex;
+}
+
+#description {
+  color: grey;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #39a866;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 6px 0px 5px rgb(15, 123, 57);
+}
+
+button:active {
+  transform: translateY(20%);
+  box-shadow: none;
+  transition: all 0.2s;
+}
+
+.passwords {
+  display: flex;
+  margin: 0 auto;
+  gap: 70px;
+}
+#passwordLength {
+  font-size: 20px;
+  width: 50px;
+}
+
+#length-p {
+  font-size: 16px;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#fff;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  background-color: #2f4965;
+  padding: 10px;
+  outline: none;
+  color: rgb(189, 188, 188);
+}
+
+.passwords>input:focus {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
