@@ -61,6 +61,7 @@ button:active {
   margin: 0 auto;
   gap: 70px;
 }
+
 #passwordLength {
   font-size: 20px;
   width: 50px;
@@ -69,8 +70,8 @@ button:active {
 #length-p {
   font-size: 16px;
   font-weight: bold;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:#fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
 }
 
 input {
